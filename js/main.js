@@ -15,7 +15,7 @@ function writeInDB(){
 function writeToFile(){
     var f = "https://github.com/Daboo-mohesh/TestPage/blob/4ad595ef5dfeae867c40ad6daf42f8e202d67666/dbx.txt";
 
-    var txtFile =new File(f);
+    var txtFile =new File(null,f);
 
     txtFile.writeln(f, "Spoon")
     txtFile.writeln(f, "Cheese monkey")
